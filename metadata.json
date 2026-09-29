@@ -1,0 +1,6 @@
+{
+  "name": "B.L FIGHTERS",
+  "description": "A hilarious Tekken-style 2.5D fighting game in Three.js featuring exaggerated physics, comical fighters, and arcade action.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

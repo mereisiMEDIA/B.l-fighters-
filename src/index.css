@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+  }
+}
+
+.font-arcade {
+  font-family: 'Russo One', sans-serif;
+}
+
+.font-bungee {
+  font-family: 'Bungee', cursive, sans-serif;
+}
+
+.font-comic {
+  font-family: 'Chango', cursive, sans-serif;
+}
+
+/* Comic speech bubble and text shadow effects */
+.arcade-text-shadow {
+  text-shadow:
+    3px 3px 0 #000,
+    -3px -3px 0 #000,
+    3px -3px 0 #000,
+    -3px 3px 0 #000,
+    4px 6px 0 rgba(0, 0, 0, 0.7);
+}
+
+.comic-text-shadow {
+  text-shadow:
+    2px 2px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+.glow-super {
+  box-shadow: 0 0 15px rgba(234, 179, 8, 0.7), inset 0 0 10px rgba(253, 224, 71, 0.5);
+  animation: pulseSuper 1s infinite alternate;
+}
+
+@keyframes pulseSuper {
+  0% {
+    box-shadow: 0 0 8px rgba(234, 179, 8, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 22px rgba(250, 204, 21, 0.9), 0 0 35px rgba(245, 158, 11, 0.6);
+  }
+}
+
